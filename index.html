@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="fi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#111820">
+  <meta name="description" content="Asennus Mikko – asennukset, korjaukset ja huollot autoille ja moottoripyörille Hyvinkäällä.">
+  <title>Asennus Mikko | Autokorjaamo Hyvinkää</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;700;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./tokens.css">
+  <link rel="stylesheet" href="./src/styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="#alku" aria-label="Asennus Mikko – etusivu">
+          <span class="brand-mark">AM</span>
+          <span class="brand-name"><small>ASENNUS</small> MIKKO</span>
+        </a>
+        <nav class="main-nav" id="main-nav" aria-label="Päänavigaatio">
+          <a href="#palvelut">Palvelut</a>
+          <a href="#prosessi">Näin toimimme</a>
+          <a href="#kokemuksia">Kokemuksia</a>
+          <a href="#ukk">UKK</a>
+          <a href="#yhteys">Yhteystiedot</a>
+        </nav>
+        <a class="header-phone" href="tel:+358456388598">
+          <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a14 14 0 0 0 5 5L15 13l5 2v4c0 1-1 2-2 2C10 20 4 14 3 6c0-1 1-2 2-2Z"/></svg>
+          045 638 8598
+        </a>
+        <button class="menu-toggle" type="button" aria-label="Avaa valikko" aria-expanded="false" aria-controls="main-nav"><span class="menu-icon" aria-hidden="true">☰</span></button>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="alku">
+        <img class="hero-media" src="./src/assets/hero-workshop-blue-v1.png" width="1536" height="1024" fetchpriority="high" alt="Grafiitinharmaa auto modernissa tummassa autokorjaamossa">
+        <div class="hero-shade" aria-hidden="true"></div>
+        <div class="hero-grid" aria-hidden="true"></div>
+        <div class="container hero-content">
+          <div class="hero-copy-block">
+            <span class="hero-kicker">AUTOKORJAAMO <i></i> HYVINKÄÄ</span>
+            <h1 class="hero-title"><span><b class="line">Kun työn</b></span><span><b class="line">pitää kestää.</b></span></h1>
+            <p class="hero-copy">Asennukset, korjaukset ja huollot autoille ja moottoripyörille – huolellisesti, joustavasti ja suoraan tekijältä.</p>
+            <div class="hero-actions">
+              <a class="button button-primary" href="#yhteys">Pyydä tarjous <span aria-hidden="true">→</span></a>
+              <a class="button button-secondary" href="tel:+358456388598">
+                <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a14 14 0 0 0 5 5L15 13l5 2v4c0 1-1 2-2 2C10 20 4 14 3 6c0-1 1-2 2-2Z"/></svg>
+                Soita 045 638 8598
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="stats-section" aria-label="Asennus Mikko lyhyesti">
+        <div class="container stats-grid">
+          <article class="stat-item"><span class="stat-label">Toimintaa</span><strong><span data-count="2008">2008</span> alkaen</strong><small>Kokemusta ja ammattitaitoa</small></article>
+          <article class="stat-item"><span class="stat-label">Google</span><strong>+<span data-count="120">120</span></strong><small>arvostelua</small></article>
+          <article class="stat-item"><span class="stat-label">Ajoneuvot</span><strong>Kaikki automerkit</strong><small>Autot ja moottoripyörät</small></article>
+          <article class="stat-item"><span class="stat-label">Palvelualue</span><strong>Hyvinkää</strong><small>Paikallista palvelua</small></article>
+        </div>
+      </section>
+
+      <section class="section services-section" id="palvelut">
+        <div class="container">
+          <div class="section-heading section-heading-centered">
+            <span class="eyebrow">PALVELUT</span>
+            <h2>Kaikki mitä ajoneuvosi tarvitsee.</h2>
+            <p>Monipuolinen palvelu saman katon alta – pienistä huolloista vaativampiin asennus- ja korjaustöihin.</p>
+          </div>
+          <div class="service-grid">
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.7 6.3a5 5 0 0 0-6.4 6.4L3 18l3 3 5.3-5.3a5 5 0 0 0 6.4-6.4l-3 3-3-3z"/></svg></span><h3>Huollot &amp; korjaukset</h3><p>Huollot, korjaustyöt ja renkaanvaihdot ajoneuvon tarpeen mukaan.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m14.5 5.5 4 4M3 21l8.4-8.4m2.2-9.1 6.9 6.9-4.2 4.2-6.9-6.9zM5 17l2 2"/></svg></span><h3>Peltityöt</h3><p>Pellin korjaus- ja sovitustyöt ajoneuvon tarpeen mukaan.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2v5M8 7h8M9 7l-2 8h10l-2-8M6 15l-2 7M18 15l2 7M8 19h8"/></svg></span><h3>Alusta- ja korisarjat</h3><p>Alusta- ja korisarjojen asennukset sovitusti ja viimeistellysti.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 22c4 0 7-2.8 7-7 0-3-1.7-5-4.2-7.8.1 2-1 3.2-2.2 4.1.3-3.5-1.9-6.2-4.1-8.3.1 4.4-3.7 7-3.7 12 0 4.2 3 7 7 7z"/></svg></span><h3>Muovihitsaukset</h3><p>Muoviosien korjaukset hitsaamalla siististi ja huolellisesti.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5h14l2 14H3zM8 8h8M7 16h10"/></svg></span><h3>Lasien asennukset</h3><p>Ajoneuvojen lasien vaihdot ja asennukset tarkalla otteella.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h8v5H5zM13 6h4v3h-4M9 9v4M6 13h6l2 9H4zM18 12l3-1M18 15h4M18 18l3 1"/></svg></span><h3>Maalipintojen käsittelyt</h3><p>Maalipinnan käsittelyt ja viimeistely ajoneuvon kunnon mukaan.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 13h14M7 13V8h10v5M6 17h12M8 17v3M16 17v3M9 5h6"/></svg></span><h3>Sisäpintojen pesut</h3><p>Penkkien, verhoilujen ja muiden sisäpintojen perusteelliset pesut.</p></a>
+            <a class="service-item" href="#yhteys"><span class="service-icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 15h14l-1.5-6h-11zM7 15v3M17 15v3M8 20h8M9 6h6M12 3v3"/></svg></span><h3>Moottoripyörien kausisäilytys</h3><p>Moottoripyörien kausisäilytys sovituksi ajaksi.</p></a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section process-section" id="prosessi">
+        <div class="container">
+          <div class="section-heading">
+            <h2>Näin homma etenee.</h2>
+            <p>Ei turhaa kiertelyä. Tiedät mitä tehdään, milloin ja miksi.</p>
+          </div>
+          <ol class="process-grid">
+            <li class="process-step"><span class="step-number">01</span><div><h3>Ota yhteyttä</h3><p>Kerro ajoneuvo, palvelu ja työn tarve.</p></div></li>
+            <li class="process-step"><span class="step-number">02</span><div><h3>Saat arvion</h3><p>Työn laajuus, hinta ja aikataulu tarkennetaan.</p></div></li>
+            <li class="process-step"><span class="step-number">03</span><div><h3>Työ tehdään</h3><p>Ajoneuvo käsitellään sovitun työn mukaan.</p></div></li>
+            <li class="process-step"><span class="step-number">04</span><div><h3>Ajoneuvo on valmis</h3><p>Saat ilmoituksen, kun työ on valmis.</p></div></li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="kokemuksia">
+        <div class="container">
+          <div class="section-heading section-heading-centered">
+            <span class="eyebrow">KOKEMUKSIA</span>
+            <h2>Työ näkyy palautteessa.</h2>
+            <p>Google-arvosteluista poimittuja kokemuksia Asennus Mikon palvelusta.</p>
+          </div>
+          <div class="reviews-widget">
+            <aside class="review-summary" aria-label="Google-arvostelujen yhteenveto">
+              <strong>Erinomainen</strong>
+              <span class="review-score">4,5</span>
+              <div class="stars" aria-label="Arvosana 4,5 viidestä">★★★★★</div>
+              <small>Perustuu <b>+120 arvosteluun</b></small>
+              <span class="google-wordmark" aria-label="Google"><i>G</i><i>o</i><i>o</i><i>g</i><i>l</i><i>e</i></span>
+              <a class="button review-google-button" href="https://maps.google.com/?cid=2522895570034062496" target="_blank" rel="noreferrer">Katso Googlessa <span aria-hidden="true">↗</span></a>
+            </aside>
+            <div class="review-carousel">
+              <button class="review-nav review-prev" type="button" aria-label="Edellinen arvostelu"><span aria-hidden="true">←</span></button>
+              <div class="review-viewport">
+                <div class="review-track">
+                  <article class="review-card"><div class="review-author-row"><span class="review-avatar">H</span><div><strong>Harri Lehtimäki</strong><small>Google-arvostelu</small></div></div><div class="stars" aria-label="5 tähteä">★★★★★</div><p>Aivan uskomattoman joustava ja hyvä palvelu. Ei voi muuta kuin suositella lämpimästi. Laatu/hinta-suhde erittäin hyvä.</p></article>
+                  <article class="review-card"><div class="review-author-row"><span class="review-avatar review-avatar-green">M</span><div><strong>Mia</strong><small>Google-arvostelu</small></div></div><div class="stars" aria-label="5 tähteä">★★★★★</div><p>Palvelu on hyvää ja hinta-laatusuhde kohdillaan. Näin naisena, joka ei autoista mitään ymmärrä, on tärkeää kun saa asiallista palvelua ja kerrotaan selkokielellä mitä pitää tehdä ja miksi.</p></article>
+                  <article class="review-card"><div class="review-author-row"><span class="review-avatar review-avatar-slate">H</span><div><strong>Hanna Ylitalo</strong><small>Google-arvostelu</small></div></div><div class="stars" aria-label="5 tähteä">★★★★★</div><p>Hyvä ja ystävällinen palvelu. Pakoputki tuli kuntoon ja hinta-arvio piti.</p></article>
+                </div>
+              </div>
+              <button class="review-nav review-next" type="button" aria-label="Seuraava arvostelu"><span aria-hidden="true">→</span></button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="cta-section" aria-labelledby="cta-title">
+        <div class="container cta-inner">
+          <div><h2 id="cta-title">Onko työ mielessä?</h2></div>
+          <a class="button button-primary" href="#yhteys">Pyydä tarjous <span aria-hidden="true">→</span></a>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="ukk">
+        <div class="container faq-layout">
+          <div class="section-heading"><h2>Usein kysyttyä.</h2><p>Vastaukset yleisimpiin kysymyksiin ennen yhteydenottoa ja ajoneuvon tuomista.</p></div>
+          <div class="faq-list">
+            <div class="faq-item is-open"><button type="button" aria-expanded="true" aria-controls="faq-1"><span class="faq-number">01</span><span>Mitä automerkkejä huollatte?</span><span class="faq-chevron" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-1"><div><p>Palvelemme kaikkia automerkkejä. Kerro tarjouspyynnössä merkki, malli ja vuosimalli, jotta työn tarve voidaan arvioida mahdollisimman tarkasti.</p></div></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false" aria-controls="faq-2"><span class="faq-number">02</span><span>Mitä tietoja tarjouspyyntöön tarvitaan?</span><span class="faq-chevron" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-2"><div><p>Kerro ajoneuvon perustiedot, tarvitsemasi palvelu ja mahdollisimman tarkka kuvaus työstä tai oireesta. Jätä myös puhelinnumero, josta sinut tavoittaa.</p></div></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false" aria-controls="faq-3"><span class="faq-number">03</span><span>Miten ajanvaraus etenee?</span><span class="faq-chevron" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-3"><div><p>Jätä tarjouspyyntö tai soita. Työn sisältö, hinta-arvio ja sopiva aika vahvistetaan kanssasi ennen työn aloittamista.</p></div></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false" aria-controls="faq-4"><span class="faq-number">04</span><span>Voiko samalla käynnillä hoitaa useita töitä?</span><span class="faq-chevron" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-4"><div><p>Kerro kaikki tarvittavat työt samalla tarjouspyynnöllä. Mahdollisuus tehdä ne yhdellä käynnillä vahvistetaan työn laajuuden ja aikataulun perusteella.</p></div></div></div>
+            <div class="faq-item"><button type="button" aria-expanded="false" aria-controls="faq-5"><span class="faq-number">05</span><span>Miten moottoripyörän kausisäilytys sovitaan?</span><span class="faq-chevron" aria-hidden="true">+</span></button><div class="faq-answer" id="faq-5"><div><p>Ota yhteyttä ennen kauden vaihtumista. Säilytyksen vapaat paikat, ajankohta ja käytännöt sovitaan aina tapauskohtaisesti.</p></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="yhteys">
+        <div class="container">
+          <div class="section-heading contact-heading"><h2>PYYDÄ HINTA-ARVIO</h2><p>Täytä autosi tiedot ja kerro mahdollisimman tarkasti huolto- tai korjaustarpeesta. Annamme hinta-arvion, jos työ voidaan arvioida tietojen perusteella. Tarvittaessa kysymme lisätietoja tai sovimme ajan vianmääritykseen.</p></div>
+          <div class="contact-grid">
+            <div class="form-panel">
+              <form id="quote-form" data-endpoint="" novalidate>
+                <div class="form-row two-col">
+                  <div class="form-field"><label for="contact-name">Nimi *</label><input id="contact-name" name="name" autocomplete="name" required aria-required="true"><small class="field-error" data-error="name"></small></div>
+                  <div class="form-field"><label for="contact-phone">Puhelinnumero *</label><input id="contact-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" required aria-required="true"><small class="field-error" data-error="phone"></small></div>
+                </div>
+                <div class="form-row two-col paired-fields">
+                  <div class="form-field"><label for="contact-email">Sähköposti <span class="optional" id="email-optional">(valinnainen)</span></label><input id="contact-email" name="email" type="email" autocomplete="email" aria-describedby="email-error"><small class="field-error" id="email-error" data-error="email"></small></div>
+                  <fieldset class="contact-method" aria-describedby="contact-method-error"><legend>Toivottu yhteydenottotapa *</legend><div class="radio-grid"><label class="radio-card"><input type="radio" name="preferredContact" value="Puhelimitse" required><span>Puhelimitse</span></label><label class="radio-card"><input type="radio" name="preferredContact" value="Sähköpostitse"><span>Sähköpostitse</span></label><label class="radio-card"><input type="radio" name="preferredContact" value="Kumpi tahansa"><span>Kumpi tahansa</span></label></div><small class="field-error" id="contact-method-error" data-error="preferredContact"></small></fieldset>
+                </div>
+                <div class="form-row two-col">
+                  <div class="form-field"><label for="registration-number">Rekisterinumero</label><input id="registration-number" name="registrationNumber" autocomplete="off"></div>
+                  <div class="form-field"><label for="vehicle-model">Auton merkki ja malli</label><input id="vehicle-model" name="vehicle" autocomplete="off"></div>
+                </div>
+                <div class="form-field"><label for="odometer">Mittarilukema (km)</label><input id="odometer" name="odometer" type="number" inputmode="numeric" min="1" max="3000000" step="1"><small class="field-error" data-error="odometer"></small></div>
+                <div class="form-field"><label for="work-description">Mitä autolle pitäisi tehdä? *</label><textarea id="work-description" name="message" rows="6" placeholder="Kerro kaikki tarvitsemasi työt ja mahdolliset oireet. Esimerkiksi määräaikaishuolto, jarrujen tarkastus ja ruostevaurion korjaus." aria-describedby="work-description-help work-description-error" required aria-required="true"></textarea><small class="field-help" id="work-description-help">Voit ilmoittaa samalla kertaa useita töitä.</small><small class="field-error" id="work-description-error" data-error="message"></small></div>
+                <div class="form-field"><label for="preferred-time">Toivottu ajankohta <span class="optional">(valinnainen)</span></label><input id="preferred-time" name="preferredTime" placeholder="Esim. ensi viikolla tai tiistaina aamupäivällä" aria-describedby="preferred-time-help"><small class="field-help" id="preferred-time-help">Ajankohta on vain toive eikä vahvistettu ajanvaraus.</small></div>
+                <div class="form-notice">Lomakkeen lähettäminen ei sido sinua mihinkään. Jos työ voidaan arvioida tietojen perusteella, annamme sinulle hinta-arvion valitsemallasi yhteydenottotavalla. Tarvittaessa kysymme lisätietoja tai sovimme erikseen ajan vianmääritykseen. Lopullinen hinta ja mahdollinen korjausaika vahvistetaan aina erikseen.</div>
+                <label class="consent"><input name="consent" type="checkbox" required><span class="checkmark">✓</span><span>Hyväksyn yhteydenoton antamillani tiedoilla.</span></label>
+                <small class="field-error consent-error" data-error="consent"></small>
+                <div class="form-status form-status-error" id="form-error" role="alert" aria-live="assertive" hidden></div>
+                <button class="button button-primary submit-button" type="submit"><span class="submit-label">PYYDÄ HINTA-ARVIO</span> <span aria-hidden="true">↗</span></button>
+              </form>
+              <div class="success-panel" id="success-panel" role="status" aria-live="polite" hidden><span>✓</span><h3>Kiitos yhteydenotosta.</h3><p>Hinta-arviopyyntösi on vastaanotettu. Otamme sinuun yhteyttä valitsemasi yhteydenottotavan mukaisesti.</p><button class="button button-secondary" type="button" id="reset-form">Tee uusi hinta-arviopyyntö</button></div>
+            </div>
+            <aside class="contact-aside">
+              <a class="contact-card" href="tel:+358456388598"><span class="contact-icon">01</span><div><small>SOITA</small><strong>045 638 8598</strong></div><b aria-hidden="true">→</b></a>
+              <div class="contact-card"><span class="contact-icon">02</span><div><small>PALVELEMME HYVINKÄÄLLÄ</small><strong>Ma–pe 7.30–19.00</strong></div></div>
+              <a class="map-card" href="https://www.google.com/maps/search/?api=1&query=Asennus+Mikko+Hyvink%C3%A4%C3%A4" target="_blank" rel="noreferrer"><div class="map-streets" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><span class="pin-icon" aria-hidden="true">⌖</span><strong>HYVINKÄÄ</strong><span>Avaa kartta <b aria-hidden="true">↗</b></span></a>
+            </aside>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div><a class="brand" href="#alku"><span class="brand-mark">AM</span><span class="brand-name"><small>ASENNUS</small> MIKKO</span></a><p>Asennukset, korjaukset ja huollot suoraan tekijältä.</p></div>
+        <div><small>NAVIGOI</small><a href="#palvelut">Palvelut</a><a href="#prosessi">Näin toimimme</a><a href="#kokemuksia">Kokemuksia</a><a href="#ukk">UKK</a></div>
+        <div><small>OTA YHTEYTTÄ</small><a href="tel:+358456388598">045 638 8598</a><span>Hyvinkää</span><span>Ma–pe 7.30–19.00</span></div>
+        <a class="footer-cta" href="#alku"><span>Takaisin alkuun</span><b aria-hidden="true">↑</b></a>
+      </div>
+      <div class="container footer-bottom"><span>© 2026 Asennus Mikko</span><span>Sivustokonsepti · tarjouspyyntölomake on demotilassa</span></div>
+    </footer>
+  </div>
+  <script src="./script.js" defer></script>
+</body>
+</html>
